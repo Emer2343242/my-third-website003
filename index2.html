@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservaciones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 py-10">
+
+    <h2 class="text-center text-2xl font-bold mb-6">Reservaciones</h2>
+
+    <div class="overflow-x-auto">
+        <table class="mx-auto w-11/12 bg-white shadow-lg rounded-lg overflow-hidden text-center border border-gray-300">
+            
+            <thead class="bg-purple-600 text-white">
+                <tr>
+                    <th class="p-3">N° Reservación</th>
+                    <th class="p-3">Nombre del cliente</th>
+                    <th class="p-3">Fecha y Hora</th>
+                    <th class="p-3">Personas</th>
+                    <th class="p-3">Mesa</th>
+                    <th class="p-3">Estado</th>
+                </tr>
+            </thead>
+
+            <tbody class="divide-y">
+                <tr class="hover:bg-gray-50">
+                    <td class="p-3">012</td>
+                    <td class="p-3">Emerson Portillo</td>
+                    <td class="p-3">7/03/2026 5:00 PM</td>
+                    <td class="p-3">2</td>
+                    <td class="p-3">2</td>
+                    <td class="p-3 text-green-600 font-semibold">Reservado</td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                    <td class="p-3">018</td>
+                    <td class="p-3">Benjamín Chevez</td>
+                    <td class="p-3">11/03/2026 1:25 PM</td>
+                    <td class="p-3">1</td>
+                    <td class="p-3">5</td>
+                    <td class="p-3 text-blue-600 font-semibold">Pendiente</td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                    <td class="p-3">025</td>
+                    <td class="p-3">Alder Orellana</td>
+                    <td class="p-3">15/03/2026 3:00 PM</td>
+                    <td class="p-3">3</td>
+                    <td class="p-3">3</td>
+                    <td class="p-3 text-red-600 font-semibold">Cancelado</td>
+                </tr>
+
+                <tr class="hover:bg-gray-50">
+                    <td class="p-3">027</td>
+                    <td class="p-3">Jonathan Mendoza</td>
+                    <td class="p-3">16/03/2026 10:30 AM</td>
+                    <td class="p-3">4</td>
+                    <td class="p-3">1</td>
+                    <td class="p-3 text-green-600 font-semibold">Reservado</td>
+                </tr>
+
+                <tr class="hover:bg--50">
+                    <td class="p-3">033</td>
+                    <td class="p-3">Cesar Martinez</td>
+                    <td class="p-3">16/03/2026 02:00 PM</td>
+                    <td class="p-3">1</td>
+                    <td class="p-3">6</td>
+                    <td class="p-3 text-red-600 font-semibold">Cancelado</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    
+    <h2 class="text-center text-xl font-bold mt-10 mb-4">Los clientes más frecuentes</h2>
+    <div class="w-6/12 mx-auto bg-purple-300 shadow p-4">
+        <ul class="list-disc pl-6">
+            <li>Emerson Portillo</li>
+            <li>Miguel Chavez</li>
+            <li>Eduardo Argueta</li>
+            <li>Walter Solórzano</li>
+            <li>Melvin Romero</li>
+        </ul>
+    </div>
+
+    <h2 class="text-center text-xl font-bold mt-10 mb-4"> Los clientes VIP</h2>
+    <div class="w-6/12 mx-auto bg-yellow-300 shadow p-4">
+        <ul class="list-disc pl-6">
+            <li>Bebida de cortesía</li>
+            <li>Descuentos en cualquier compra</li>
+            <li>Menú exclusivo</li>
+            <li>Reservación de mesa exclusiva</li>
+        </ul>
+    </div>
+
+</body>
+</html>
